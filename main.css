@@ -8,6 +8,7 @@
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
+	background:#CCC;
 }
 
 #heading {
@@ -19,4 +20,8 @@ body {
 #heading a {
 	color: #CCC;
 	text-decoration: none;
+}
+
+#body {
+	padding-top: 30px;
 }
