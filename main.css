@@ -12,14 +12,18 @@ body {
 }
 
 #heading {
-	background: url(images/header-bg.png) #000;
-	width: 100%;
+	background: url(images/header-bg.png) #000 repeat-x;
 	height: 75px;
 }
 
 #heading a {
 	color: #CCC;
 	text-decoration: none;
+}
+
+#heading h1 {
+	position: relative;
+	top: 20px;
 }
 
 #menu {
