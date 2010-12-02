@@ -35,8 +35,11 @@ body {
 }
 
 #body {
-	width: 950px;
 	margin-top: 30px;
+}
+
+.wrapper {
+	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
 }
