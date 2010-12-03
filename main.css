@@ -12,7 +12,7 @@ body {
 }
 
 #heading {
-	background: url(images/header-bg.png) #000 repeat-x;
+	background: url(images/header-bg.png) repeat-x;
 	height: 75px;
 }
 
@@ -39,7 +39,6 @@ body {
 	background: #CCC;
 	color: #000;
 	border: 1px #FFF solid;
-	border-bottom: none;
 }
 
 #menu #active {
@@ -57,4 +56,9 @@ body {
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#heading .wrapper {
+	background: url(images/header-bg.png) repeat-x;
+	height: 75px;
 }
