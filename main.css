@@ -8,7 +8,7 @@
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	background:#CCC;
+	background: #666;
 }
 
 #heading {
@@ -49,7 +49,9 @@ body {
 }
 
 #body {
-	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background:#CCC;
 }
 
 .wrapper {
@@ -61,4 +63,8 @@ body {
 #heading .wrapper {
 	background: url(images/header-bg.png) repeat-x;
 	height: 75px;
+}
+
+li {
+	list-style-position:inside;
 }
