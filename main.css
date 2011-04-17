@@ -1,15 +1,24 @@
+/***********************************/
+/* Color set:                      */
+/* - Black (#000000)               */
+/* - Grey (#474F58)                */
+/* - Dark red (#6B0000)            */
+/* - Fair red (#C60000)            */
+/* - White (#FFFFFF)               */
+/***********************************/
+
 * {
 	padding: 0px;
 	margin: 0px;
 }
 
 body {
-	background: #000000;
+	background: #474F58;
 	padding-bottom: 30px;
 }
 
 #real_body {
-	background: #FFFFFF;
+	background: #000000;
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
