@@ -27,7 +27,14 @@ body {
 }
 
 #header {
-	height: 70px;
-	padding-top: 15px;
+	padding-bottom: 35px;
+	padding-top: 35px;
 	padding-left: 20px;
+}
+
+#menu {
+	background: #6B0000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
 }
