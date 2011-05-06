@@ -32,9 +32,36 @@ body {
 	padding-left: 20px;
 }
 
+
+/***********************************/
+/* Menu                            */
+/***********************************/
+
 #menu {
 	background: #6B0000;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-bottom: 10px;
+	padding-bottom: 27px;
+}
+
+#menu ul, li {
+	list-style-type: none;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	text-decoration: none;
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+}
+
+
+#menu a#current {
+	/* TODO */
+}
+
+#menu a:hover {
+	/* TODO */
 }
