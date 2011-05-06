@@ -55,13 +55,17 @@ body {
 	display: block;
 	padding: 3px 10px;
 	text-align: center;
+	color: #FFFFFF;
+	border: 1px solid #6B0000;
 }
 
 
 #menu a#current {
-	/* TODO */
+	background: #FFFFFF;
+	color: #6B0000;
 }
 
 #menu a:hover {
-	/* TODO */
+	background: #FFFFFF;
+	color: #6B0000;
 }
