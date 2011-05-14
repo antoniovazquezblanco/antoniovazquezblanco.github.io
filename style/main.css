@@ -36,6 +36,11 @@ body {
 	padding-top: 20px;
 }
 
+.wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /***********************************/
 /* Menu                            */
