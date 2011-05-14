@@ -75,10 +75,10 @@ body {
 
 #menu a#current {
 	background: #FFFFFF;
-	color: #6B0000;
+	color: #000000;
 }
 
 #menu a:hover {
 	background: #FFFFFF;
-	color: #6B0000;
+	color: #000000;
 }
