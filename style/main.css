@@ -36,6 +36,10 @@ body {
 	padding-top: 20px;
 }
 
+#content {
+	padding-top: 20px;
+}
+
 .wrapper {
 	width: 900px;
 	margin-left: auto;
