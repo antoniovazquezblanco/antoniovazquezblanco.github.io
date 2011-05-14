@@ -32,6 +32,11 @@ body {
 	padding-left: 20px;
 }
 
+#header a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 #bottom {
 	padding-top: 20px;
 }
