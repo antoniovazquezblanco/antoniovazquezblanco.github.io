@@ -13,9 +13,13 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	background: #474F58;
-	padding-bottom: 30px;
 }
 
 #real_body {
@@ -24,6 +28,8 @@ body {
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
+	min-height: 100%;
+	height: auto !important;
 }
 
 #header {
@@ -42,7 +48,6 @@ body {
 }
 
 #content {
-	padding-top: 20px;
 }
 
 .wrapper {
@@ -58,6 +63,7 @@ body {
 #menu {
 	background: #6B0000;
 	padding-bottom: 27px;
+	margin-bottom: 20px;
 }
 
 #menu ul, li {
