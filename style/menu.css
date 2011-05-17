@@ -40,3 +40,7 @@
 #menu ul li:hover ul {
 	left:auto;
 }
+
+#menu ul li ul li {
+	width: 100%;
+}
