@@ -82,3 +82,14 @@ body {
 	margin: 0.5em 0.8em 0.5em 0;
 	float: left;
 }
+
+.center {
+	width: 80%;
+	padding: 0.5em 0.8em 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center img {
+	width: 100%;
+}
