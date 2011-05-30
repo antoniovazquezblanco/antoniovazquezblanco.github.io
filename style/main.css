@@ -22,6 +22,19 @@ body {
 	background: #474F58;
 }
 
+a {
+	text-decoration: none;
+	color: #6B0000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #474F58;
+}
+
 #real_body {
 	background: #000000;
 	color: #FFFFFF;
