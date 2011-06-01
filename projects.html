@@ -6,25 +6,7 @@
 		<link href="style/menu.css" rel="stylesheet" type="text/css" />
 		<title>Antonio Vázquez Blanco</title>
 		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-		<script type='text/javascript'>
-			function getProject() {
-				var url = window.location.href.split("?");
-				if (url.length <= 1)
-					return "";
-				url = url[1].split("&");
-				for (i=0;i<url.length;i++) {
-					var parts = url[i].split("=");
-					if(parts[0] == "project") {
-						if(parts.length <= 1)
-							return "";
-						var value = unescape(parts[1]);
-						value.replace(/\+/g," ");
-						return value;
-					}
-				}
-				return "";
-			}
-		</script>
+		<script src="js/projects.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="real_body">
