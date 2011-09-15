@@ -5,6 +5,9 @@
 		<link href="style/main.css" rel="stylesheet" type="text/css" />
 		<link href="style/menu.css" rel="stylesheet" type="text/css" />
 		<title>Antonio Vázquez Blanco</title>
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+		<script src="http://www.zazar.net/developers/jquery/zrssfeed/jquery.zrssfeed.min.js" type="text/javascript"></script>
+		<script src="http://www.zazar.net/developers/jquery/zrssfeed/jquery.vticker.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="real_body">
@@ -27,7 +30,18 @@
 			<div id="content" class="wrapper">
 				<div class="image right"><img alt="Antonio Vázquez Blanco (2009)" src="images/antonio_vazquez_blanco.png" /><br />Antonio Vázquez Blanco (2009)</div>
 				<h2>Welcome</h2><br />
-				<p>Welcome to my personal webpage. This page was created with the aim of keeping people informed about my activity as well as provide information about my projects.</p>
+				<p>Welcome to my personal webpage. This page was created with the aim of keeping people informed about my activity as well as provide information about my projects.</p><br /><br />
+				<h2>Latest github activity</h2>
+				<div id="activity">
+					Loading...
+				</div>
+				<script type='text/javascript'>
+					$(document).ready(function() {
+						$('#activity').rssfeed('https://github.com/antoniovazquezblanco.atom',{ header: false }, function(e) {
+							$(e).find('div.rssBody').vTicker();
+						});
+					});
+				</script>
 			</div>
 			<div id="bottom" class="wrapper">
 				<script type="text/javascript">
