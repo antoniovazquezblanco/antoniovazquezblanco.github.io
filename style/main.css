@@ -35,6 +35,10 @@ a:visited {
 	color: #474F58;
 }
 
+ul {
+	padding-left: 20px;
+}
+
 #real_body {
 	background: #000000;
 	color: #FFFFFF;
