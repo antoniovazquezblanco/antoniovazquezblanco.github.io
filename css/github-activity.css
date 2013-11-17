@@ -2,6 +2,12 @@
   clear: both;
 }
 
+.github-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 div .github-activity {
   border-radius: 6px;
   border: 1px solid rgb(68, 68, 68);
@@ -74,4 +80,14 @@ div .github-activity .github-activity-body li {
   border: 1px solid rgb(68, 68, 68);
   padding: 12px 12px 10px 10px;
   border-width: 0px 0px 1px;
+}
+
+div .github-activity .github-activity-body li p {
+  margin: 0px;
+  padding: 0px;
+}
+
+div .github-activity .github-activity-body li img {
+  float: left;
+  display: inline;
 }

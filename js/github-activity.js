@@ -57,11 +57,26 @@ function isStorageAvailiable() {
     }
 
     // Populate data into the widget...
+    var messages = {
+      "PushEvent": "I pushed stuff to ",
+      "IssuesEvent": "I opened an issue in ",
+      "IssueCommentEvent": "I commented on ",
+      "PullRequestEvent": "I opened a pull request in ",
+      "ForkEvent": "I forked ",
+      "WatchEvent": "I have starred "
+    };
+    console.log(events);
     var list = $("<ul>");
     $.each(events, function(index, element) {
-      list.append($("<li>").text(element.type).prepend(
-        $("<img>").attr("src", "images/github-"+element.type+".png")
-      ));
+      list.append(
+        $("<li>").append(
+          $("<img>").attr("src", "images/github-"+element.type+".png")
+        ).append(
+          $("<p>").html(messages[element.type]).append(
+            $("<a>").text(element.repo.name).attr("href", "https://github.com/"+element.repo.name)
+          ).addClass("github-truncate")
+        )
+      );
     });
     var content = $("<div>").addClass("github-activity").append(
       $("<div>").addClass("github-activity-header").append(    // Header
