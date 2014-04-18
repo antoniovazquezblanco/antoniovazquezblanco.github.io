@@ -65,7 +65,6 @@ function isStorageAvailiable() {
       "ForkEvent": "I forked ",
       "WatchEvent": "I have starred "
     };
-    console.log(events);
     var list = $("<ul>");
     $.each(events, function(index, element) {
       list.append(
