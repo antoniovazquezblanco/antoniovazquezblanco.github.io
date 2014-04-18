@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Antonio Vázquez Blanco</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Style -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/github-activity.css" rel="stylesheet">
-  </head>
+  {% include head.html %}
   <body>
-	{{content}}
+	{% include header.html %}
+	<!-- Real body -->
+	<div class="container">
+		{{content}}
+	</div>
+	{% include footer.html %}
   </body>
 </html>
 
