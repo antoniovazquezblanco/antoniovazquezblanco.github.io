@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+	{% include header.html %}
+	<!-- Real body -->
+	<div class="container">
+		{{ page.title }}
+		{{ page.date | date_to_long_string }}
+		{% if page.picture %}
+			<br />
+			<img src="{{ page.picture }}" class="img-responsive img-rounded pull-right" />
+		{% endif %}
+		<br />
+		{{ content }}
+	</div>
+	{% include footer.html %}
+  </body>
+</html>
+
