@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello world
-picture: /images/2014-04-18-Myself.png
+picture: /images/posts/2014-04-18-Myself.png
 ---
 
 I'm an engineering undergraduate born in a [small town called Chantada](https://www.google.com/maps/place/Chantada), that likes electronics and computer and if you ask me, I'm specially interested in the security area 
