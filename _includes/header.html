@@ -14,7 +14,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				{% for p in site.pages %}
+				{% for p in (site.pages | sort: 'index') %}
 					<li {% if p.url == page.url %}class="active"{% endif %}>
 						<a href="{{ p.url }}">{{ p.title }}</a>
 					</li>
