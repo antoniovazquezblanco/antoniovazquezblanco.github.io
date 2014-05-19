@@ -111,7 +111,8 @@ web:
 dynaform  frames  help  images  localiztion  oem  userRpm
 ```
 
-We now have access to files like /etc/passwd for password cracking or web files for  further investigation among others.
+We now have access to files like /etc/passwd for password cracking or web files for further investigation among others. Many times the default configuration is stored in the filesystem and can reveal potential breachs 
+due to misconfiguration. 
 
 In following series I'll try to explain some ideas that let me discover some bugs in the past. I will try to cover some basics when analysing embedded Linux firmwares.
 
