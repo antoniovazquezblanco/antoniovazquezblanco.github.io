@@ -11,6 +11,7 @@ I've downloaded the latest binary firmware for it and analysed it. This along so
 Future posts will explain how I was able to interface the UART port and some basis of firmware analisys. I hope you will find them interesting.
 
 More information can be found in the following links:
+
 * [Advisory](/docs/advisories/Advisory_C54APM_Multiple.pdf)
 * [CVE-2014-1405](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1405)
 * [CVE-2014-1406](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1406)
