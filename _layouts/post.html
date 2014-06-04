@@ -4,6 +4,13 @@
   <body>
 	{% include header.html %}
 	<!-- Real body -->
+	<style>
+	body>.container {
+	        background-color: #FFF;
+	        border-radius: 5px;
+		margin-bottom: 50px;
+	}
+	</style>
 	<div class="container">
 		<h1>{{ page.title }}</h1>
                 <p><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_long_string }}</p>
