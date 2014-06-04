@@ -1,13 +1,15 @@
 ---
 layout: post
 title: New InsydeH2O BIOS update format
-picture: /images/posts/2014-
+picture: /images/posts/2014-06-04-Insyde_logo.jpg
 ---
 
 Some time ago I bought an Alienware M14xR2 as my last laptop broke down. Lately, Alienware published an update for my BIOS that I can't burn in my computer because I only use Archlinux. By googling a bit I quickly 
 found a tool for burning the BIOS in a DOS command line but I would need to have a look to the [update package](http://www.dell.com/support/drivers/es/es/esdhs1/DriverDetails/Product/alienware-m14x-r2?driverId=6CVT8&osCode=W764&fileId=3210572008&languageCode=es&categoryId=BI).
 
 Just by executing the update file in a virtual machine in windows I soon figured out it was a self extracting package. I just searched %TEMP% files for the extracted version.
+
+![selfextractor](/images/posts/2014-06-04-Self_extractor.png "Self extractor...")
 
 ```bash
 $ file *
@@ -79,7 +81,7 @@ $_IFLASH_INI_IMG
 $_IFLASH_EC_IMG_
 ```
 
-I think this headers separate sections of the file as they are all 16 characters long. By having a look inside Hexedit I found that there is a padding of 8 bytes between the last character and some famous file magic 
+I think these headers separate sections of the file as they are all 16 characters long. By having a look inside Hexedit I found that there is a padding of 8 bytes between the last character and some famous file magic 
 numbers. I've done a simple python script (filesplitter) for splitting this kind of files and continue the analysis.
 
 ```python
@@ -145,5 +147,5 @@ I had no success in running one and two. I've tried FreeDOS and Windows 98 in DO
 I found that number three is related to a utility called [Flashrom](http://flashrom.org/Flashrom) but I don't have much time to investigate. Maybe some readers can point me in the right direction.
 After having a look to five in Hexedit I think it can be a BIOS image although I don't really know about this topic.
 
-Although I could not flash my BIOS I could find some little information about this new format and I also found that MZ executable signatures weren't in the binary analysis tool I use (binwalk). Latest version of 
-binwalk now looks for MZ executables.
+Although I could not flash my BIOS I could find some little information about this new format and I also found that MZ executable signatures weren't in the binary analysis tool I use ([binwalk](http://binwalk.com/)). 
+The latest version of binwalk now looks for MZ executables.
