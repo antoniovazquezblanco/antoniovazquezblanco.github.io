@@ -1,4 +1,12 @@
-name: Antonio Vázquez Personal Webpage
+# Site info
+title: 'Antonio Vázquez Blanco'
 url: http://antoniovazquezblanco.github.io/
+
+# Author
+author:
+  name: 'Antonio Vázquez Blanco'
+  email: 'antoniovazquezblanco@gmail.com'
+
+# Dependencies
 highlighter: pygments
 markdown: redcarpet
