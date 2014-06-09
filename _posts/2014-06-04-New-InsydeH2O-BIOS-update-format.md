@@ -2,6 +2,7 @@
 layout: post
 title: New InsydeH2O BIOS update format
 picture: /images/posts/2014-06-04-Insyde_logo.jpg
+keywords: InsydeH20, bios, flash, binary analisys, msdos, linux
 ---
 
 Some time ago I bought an Alienware M14xR2 as my last laptop broke down. Lately, Alienware published an update for my BIOS that I can't burn in my computer because I only use Archlinux. By googling a bit I quickly 

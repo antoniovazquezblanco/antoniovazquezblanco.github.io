@@ -2,6 +2,7 @@
 layout: post
 title: Security flaw in RomPager webserver
 picture: /images/posts/2014-05-18-Allegro_software.png
+keywords: RomPager, vulnerability, exploit, security, cve
 ---
 
 RomPager is a widely used embedded webserver. Playing around with an quite old but very widely used (or at least in Spain) ZyXEL P-660HW-D1 I could find an small bug in this software that leads to XSS and URL redirection.

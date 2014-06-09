@@ -2,6 +2,7 @@
 layout: post
 title: Multiple security flaws in Comtrend router 
 picture: /images/posts/2014-05-20-Comtrend_C54APM.jpg
+keywords: Conceptronic, C54APM, security, exploit, cve
 ---
 
 Last summer I've been playing with an old access point I found among my unused devices. Although this is far away from being a top selling device I decided to investigate a bit in order to find security flaws on it.

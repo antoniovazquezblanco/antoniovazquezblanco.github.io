@@ -2,6 +2,7 @@
 layout: post
 title: UART and Serial ports
 picture: /images/posts/2014-XX-XX-UART.jpg
+keywords: Serial port, UART, find, hacking, tutorial
 ---
 
 We're used to interact with devices through a screen and a keyboard. They are very practical and easy to use interfaces but sometimes can be too expensive for some devices to include them. Embeded devices like routers

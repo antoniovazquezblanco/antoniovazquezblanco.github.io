@@ -2,6 +2,7 @@
 layout: post
 title: Binary firmware analysis
 picture: /images/posts/2014-
+keywords: binary analisys, firmware, signatures, security, tutorial, hacking
 ---
 
 When trying to find exploits or vulnerabilities in embedded devices, any information can be useful.
