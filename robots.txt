@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://antoniovazquezblanco.github.io/sitemap.xml
