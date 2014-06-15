@@ -17,9 +17,6 @@
 	                <div class="span6" style="display: inline-block;"><p><span class="glyphicon glyphicon-time"></span> {{ page.date | date_to_long_string }}</p></div>
 			<div class="span6 pull-right">{% include share.html %}</div>
 		</div>
-		{% if page.picture %}
-			<img src="{{ page.picture }}" class="img-responsive img-rounded pull-right" />
-		{% endif %}
 		<br />
 		{{ content }}
 		<br />

@@ -5,7 +5,11 @@ picture: /images/posts/2014-05-20-Comtrend_C54APM.jpg
 keywords: Conceptronic, C54APM, security, exploit, cve
 ---
 
+![c54apmaccesspoint](/images/posts/2014-05-20-Comtrend_C54APM.jpg "Conceptronic C54APM access point...")
+
 Last summer I've been playing with an old access point I found among my unused devices. Although this is far away from being a top selling device I decided to investigate a bit in order to find security flaws on it.
+
+<!--more-->
 
 I've downloaded the latest binary firmware for it and analysed it. This along some other information retrieved by the UART port inside it lead to a discovery of security flaws in the web interface.
 
