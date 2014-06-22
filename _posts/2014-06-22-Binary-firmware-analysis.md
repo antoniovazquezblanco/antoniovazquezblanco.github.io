@@ -1,17 +1,22 @@
 ---
 layout: post
 title: Binary firmware analysis
-picture: /images/posts/2014-
+picture: /images/posts/2014-06-22-HexEdit.png
 keywords: binary analisys, firmware, signatures, security, tutorial, hacking
 ---
 
-When trying to find exploits or vulnerabilities in embedded devices, any information can be useful.
+When trying to find exploits or vulnerabilities in embedded devices, any information is very useful.
 
-Firmware analysis can be very useful as there's no need to have physical access to a device in order to investigate and there's no need to buy one as long as the manufacturer let you download updates from their website.
+Firmware analysis can be a good starting point as there's no need to have physical access to a device in order to investigate and there's no need to buy one as long as the manufacturer let you download updates from their website.
 
 In the following examples I'm going to use a firmware from TP-LINK for [TL-WR841N v8 (Soft. version: 3.13.33)](http://www.tp-link.com/ar/support/download/?model=TL-WR841N&version=V8#tbl_j).
 
-In the past I started using the "strings" command in order to find usual signatures like "sqfs" or its variants for squash filesystems.
+<!--more-->
+
+![hexeditor](/images/posts/2014-06-22-HexEdit.png "HexEdit")
+
+Hex editors can be very useful for some things but when you are trying to search for some file signatures and you have a list of over 50 of them, they become tedious and repetitive so in the past I started using the 
+"strings" command in order to find usual signatures like "sqfs" or its variants for squash filesystems. This enabled me to automate signature finding with bash scripts very easely.
 
 ```bash
 $ strings WR841N_v8_en_3.13.33.bin | grep sq
