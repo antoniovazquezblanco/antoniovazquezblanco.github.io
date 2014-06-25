@@ -9,6 +9,8 @@ I never liked HTML or CSS too much. I have to say that althought they were easy 
 of aspects of this language but I see this technology too far from where it should be. Althought it has evolved there has been no interest in fixing some of the most basic issues of the standard among, in some cases, 
 no interest in site maintenance to keep up to date with the standard. I'm thinking in an example while I write my opinion, it is translations.
 
+<!--more-->
+
 Although multilanguage webpages are very important in some cases there's no standard way of translating webpages. I can't imagine why this topic has never been talked so seriously it doesn't is part of html standard.
 If you want a page to be in various languages you must translate it via Javascript (Implies loading more content than needed and charging the user side computation), either duplicate the page (Maintainig repeated 
 content), either use server side languages that you may not want or need. In my opinion none of this is ideal and it could be better with very little effort.
@@ -78,6 +80,7 @@ with css.
 </html>
 ```
 
-I don't know what your experience with HTML/CSS but for me this kind of a must. As I'm not to happy with this standard I think I will be writing about my thoughts on this languages.
+I don't know what your experience with HTML/CSS is but for me this is kind of a big fail.
 
-I would like to hear your oppinion in this topic.
+As I'm not to happy with this standard I think I will be writing about my thoughts on this languages from time to time. I would like to hear your oppinion in this topic because you will probably have much more 
+experience than me in this area.
