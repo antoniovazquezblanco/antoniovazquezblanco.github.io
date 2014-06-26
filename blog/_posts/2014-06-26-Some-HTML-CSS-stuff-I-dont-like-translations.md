@@ -1,13 +1,15 @@
 ---
 layout: post
-title: Some HTML/CSS stuff I don't like
-picture: /image/2014-
+title: "Some HTML/CSS stuff I don't like: Translations"
+picture: /images/posts/2014-06-26-HTML_CSS_JS_logo.png
 keywords: HTML, CSS, localization, translation, languages, standard
 ---
 
+![htmlcssjslogo](/images/posts/2014-06-26-HTML_CSS_JS_logo.png "HTML5, CSS3 and JS logos")
+
 I never liked HTML or CSS too much. I have to say that althought they were easy for me to get started with them, I always found tricky to get some things well done. I have to say that HTML 5 standard did improve a lot 
 of aspects of this language but I see this technology too far from where it should be. Althought it has evolved there has been no interest in fixing some of the most basic issues of the standard among, in some cases, 
-no interest in site maintenance to keep up to date with the standard. I'm thinking in an example while I write my opinion, it is translations.
+no interest in site maintenance to keep up to date with the latest changes. I'm thinking in an example while I write my opinion, it is translations.
 
 <!--more-->
 
@@ -32,6 +34,7 @@ not so hard to implement. I don't really care about the format of storing string
 ```
 
 A second thing is needed for this to work, a way to relate an id to a string inside HTML. A new property should be enought for this to be working:
+
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -45,10 +48,12 @@ A second thing is needed for this to work, a way to relate an id to a string ins
 	</body>
 </html>
 ```
+
 This way the browser would be responsible for parsing the correct localization file based on the user preferences and populate the content of the tags that contain the translation property. This enables the browser to 
 optimize the translation loading code instead of being loaded by Javascript for example and to reduce the amount of data transferred throught the network by only loading the desired localization file.
 
-I can think of a major con to my mehtod that is related with anidated tags:
+I can think of a major con to my mehtod that is related with nested tags:
+
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -61,8 +66,10 @@ I can think of a major con to my mehtod that is related with anidated tags:
 	</body>
 </html>
 ```
+
 In the exposed case the ```a``` tag cannot be between ```p``` text. Either it is before either after. That forces us to change the structure of the page to something similar to the following and to fix the appearance 
 with css.
+
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -82,5 +89,5 @@ with css.
 
 I don't know what your experience with HTML/CSS is but for me this is kind of a big fail.
 
-As I'm not to happy with this standard I think I will be writing about my thoughts on this languages from time to time. I would like to hear your oppinion in this topic because you will probably have much more 
+As I'm not to happy with this standard I think I will be writing about my thoughts on these languages from time to time. I would like to hear your oppinion in this topic because you will probably have much more 
 experience than me in this area.
