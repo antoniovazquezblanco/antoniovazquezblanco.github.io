@@ -14,14 +14,12 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				{% for i in (0..site.pages.size) %}
-					{% for p in site.pages %}
-						{% if p.order == i %}
-							<li {% if p.url == page.url %}class="active"{% endif %}>
-								<a href="{{ p.url }}">{{ p.title }}</a>
-							</li>
-						{% endif %}
-					{% endfor %}
+				{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first | remove:'index.html' }}{% endcapture %}
+				{% for p in site.navigation %}
+					{% capture section %}{{ p.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+					<li {% if location == section %}class="active"{% endif %}>
+						<a href="{{ p.url }}">{{ p.title }}</a>
+					</li>
 				{% endfor %}
 			</ul>
 		</div>

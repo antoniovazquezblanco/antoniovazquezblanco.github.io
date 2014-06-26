@@ -10,3 +10,14 @@ author:
 # Dependencies
 highlighter: pygments
 markdown: redcarpet
+
+# Pagination
+paginate: 6
+paginate_path: "blog/page:num"
+
+# Navigation
+navigation:
+- title: Home
+  url: /
+- title: Blog
+  url: /blog/
