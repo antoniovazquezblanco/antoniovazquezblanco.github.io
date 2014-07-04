@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "HackThisSite: Basic 01"
-picture: /images/posts/2014-XX-XX-HackThisSite_logo.jpg
+picture: /images/posts/2014-07-04-HackThisSite_logo.jpg
 keywords: hackthissite, hack, help, challenge, security
 ---
 
-![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg"HackThisSite logo")
+![hackthissitelogo](/images/posts/2014-07-04-HackThisSite_logo.jpg "HackThisSite logo")
 
 I found [hackthissite.org](https://www.hackthissite.org/) quite long time ago when I was learning some basics of computer security and I really liked it. It is meant to reinforce theoretical knowledge with some 
 practice. It consists on a bunch of challenges that should be solved progressively.
