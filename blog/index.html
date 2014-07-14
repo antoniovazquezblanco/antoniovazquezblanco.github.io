@@ -27,7 +27,7 @@ body>.container {
 			<ul class="pagination">
 				<li {% if paginator.previous_page == nil %}class="disabled"{% endif %}><a href="/blog/{% if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">&laquo;</a></li>
 				{% for page in (1..paginator.total_pages) %}
-					<li><a href="/blog/{% if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
+					<li {% if paginator.page == page %}class="active"{% endif %}><a href="/blog/{% if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
 				{% endfor %}
 				<li {% if paginator.next_page == nill %}class="disabled"{% endif %}><a href="/blog/page{%if paginator.next_page == nil %}{{ paginator.page }}{% else %}{{ paginator.next_page }}{% endif %}">&raquo;</a></li>
 			</ul>
