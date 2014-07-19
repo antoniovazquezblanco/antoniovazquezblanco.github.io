@@ -1,16 +1,15 @@
 ---
 layout: post
 title: "HackThisSite: Basic 02"
-picture: /images/posts/2014-XX-XX-HackThisSite_logo.jpg
+picture: /images/posts/2014-07-19-HackThisSite_logo.jpg
 keywords: hackthissite, hack, help, challenge, security
 ---
 
-![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg"HackThisSite logo")
+![hackthissitelogo](/images/posts/2014-07-19-HackThisSite_logo.jpg "HackThisSite logo")
 
 Here you have some information about challenge basic number two. As in the first challenge here I explain what I believe the requisites are and some tips for solving the puzzle. Hope you like them.
 
 <!--more-->
-
 
 ## Requisites
 
@@ -34,4 +33,4 @@ You must hover the hints for them to show so not to spoil people only reading th
 
 Forgetting about uploading files is very common. In worst case scenarios things like this happen and your hole system can be bypassed easely. In less harmfull situations your server side language may generate error 
 messages that leak important or sensitive information that can lead to further exploitation. An example can be again found [using 
-google](https://www.google.com/search?hl=en&q=PHP+application+warnings+failing+%22include_path%22&gws_rd=ssl) more examples can be found in the [Google hacking database](http://www.exploit-db.com/google-dorks/7/)
+google](https://www.google.com/search?hl=en&q=PHP+application+warnings+failing+%22include_path%22&gws_rd=ssl) and more examples can be found in the [Google hacking database](http://www.exploit-db.com/google-dorks/7/)
