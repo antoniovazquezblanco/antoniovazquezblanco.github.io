@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "HackThisSite: Basic 03"
-picture: /images/posts/2014-XX-XX-HackThisSite_logo.jpg
+picture: /images/posts/2014-08-22-HackThisSite_logo.jpg
 keywords: hackthissite, hack, help, challenge, security
 ---
 
-![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg "HackThisSite logo")
+![hackthissitelogo](/images/posts/2014-08-22-HackThisSite_logo.jpg "HackThisSite logo")
 
 HackThisSite basic challenge number three. I hope someone likes trying to solve this challenges and enjoys learning basic tricks of computer security. If you have any doubts about why things work like that just ask in 
 the comments section!
