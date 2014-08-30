@@ -28,6 +28,11 @@ is easy as it only contains two candidates and they have the header already sold
 
 ![p660hwd1board](/images/posts/2014-XX-XX-P660HW_D1_Board.png "P660HW-D1 Board")
 
+Testing the GND pin is the easyest one. Metal cases are almost always grounded and we can use them to detect the ground pin. With a polymeter in "beep" mode, the device turned off, put one of the probes in a metal case 
+and with the other test the pins for an inmediate beep. Once the GND pin is located it is not very difficult to locate the VCC pin in the "beep" mode. By putting one of the probes in the GND pin test the remaining pins 
+for a non inmediate beep. As voltage supplies don't always provide stable voltages, capacitors are used to stabilize noise so when the polymeter tests between VCC and GND it sees an almost open circuit while the 
+capacitor gets charged and when 
+
 Test for GND
 Test for VCC if any
 Test for Tx
