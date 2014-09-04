@@ -2,7 +2,8 @@
 layout: post
 title: "HackThisSite: Basic 03"
 picture: /images/posts/2014-08-22-HackThisSite_logo.jpg
-keywords: hackthissite, hack, help, challenge, security
+keywords: "hackthissite, hack, help, challenge, security"
+description: "My solution to a HackThisSite challenge!"
 ---
 
 ![hackthissitelogo](/images/posts/2014-08-22-HackThisSite_logo.jpg "HackThisSite logo")

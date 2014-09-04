@@ -2,7 +2,8 @@
 layout: post
 title: Multiple security flaws in Comtrend router 
 picture: /images/posts/2014-05-20-Comtrend_C54APM.jpg
-keywords: Conceptronic, C54APM, security, exploit, cve
+keywords: "Conceptronic, C54APM, security, exploit, cve"
+description: "C54APM access point multiple vulnerabilities advisory."
 ---
 
 ![c54apmaccesspoint](/images/posts/2014-05-20-Comtrend_C54APM.jpg "Conceptronic C54APM access point...")

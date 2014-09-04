@@ -2,7 +2,8 @@
 layout: post
 title: New InsydeH2O BIOS update format
 picture: /images/posts/2014-06-04-Insyde_logo.jpg
-keywords: InsydeH20, bios, flash, binary analisys, msdos, linux
+keywords: "InsydeH20, bios, flash, binary analisys, msdos, linux"
+description: "Analisys of new InsydeH20 bios update format in order to flash it with Linux."
 ---
 
 ![insydeh2o](/images/posts/2014-06-04-Insyde_logo.jpg "InsydeH2O logo")

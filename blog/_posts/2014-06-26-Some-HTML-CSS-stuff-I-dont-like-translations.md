@@ -2,7 +2,8 @@
 layout: post
 title: "Some HTML/CSS stuff I don't like: Translations"
 picture: /images/posts/2014-06-26-HTML_CSS_JS_logo.png
-keywords: HTML, CSS, localization, translation, languages, standard
+keywords: "HTML, CSS, localization, translation, languages, standard"
+description: "HTML translations should be improved and here are my ideas about how to do it."
 ---
 
 ![htmlcssjslogo](/images/posts/2014-06-26-HTML_CSS_JS_logo.png "HTML5, CSS3 and JS logos")

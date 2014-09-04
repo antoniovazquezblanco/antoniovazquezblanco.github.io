@@ -2,7 +2,8 @@
 layout: post
 title: Security flaw in RomPager webserver
 picture: /images/posts/2014-05-18-Allegro_software.png
-keywords: RomPager, vulnerability, exploit, security, cve
+keywords: "RomPager, vulnerability, exploit, security, cve"
+description: "RomPager server security advisory."
 ---
 
 ![allegrosoftware](/images/posts/2014-05-18-Allegro_software.png "Allegro software")

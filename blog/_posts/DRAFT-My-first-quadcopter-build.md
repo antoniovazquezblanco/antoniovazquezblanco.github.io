@@ -3,6 +3,7 @@ layout: post
 title: "My first quadcopter build"
 picture: /images/posts/............
 keywords: uav, quadcopter, multirrotor, drone, r/c, AESA
+description: ""
 ---
 
 ![quadcopter](/images/posts/................. "Quadcopter")

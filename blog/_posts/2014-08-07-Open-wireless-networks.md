@@ -2,7 +2,8 @@
 layout: post
 title: "Open wireless networks"
 picture: /images/posts/2014-08-07-Wifi_logo.jpg
-keywords: open, authentication, network, wireless, wifi, images, extract
+keywords: "open, authentication, network, wireless, wifi, images, extract"
+description: "Open networks are insecure. Here you can find how to extract info in that networks."
 ---
 
 ![wifi](/images/posts/2014-08-07-Wifi_logo.jpg "Wifi logo")

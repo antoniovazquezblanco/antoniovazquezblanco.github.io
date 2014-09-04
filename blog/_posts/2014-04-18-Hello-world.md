@@ -2,7 +2,8 @@
 layout: post
 title: Hello world
 picture: /images/posts/2014-04-18-Myself.png
-keywords: blog, Antonio Vázquez Blanco
+keywords: "blog, Antonio Vázquez Blanco"
+description: "This is my personal blog and here you have some information about me."
 ---
 
 ![antoniovazquezblanco](/images/posts/2014-04-18-Myself.png "Antonio Vázquez Blanco")
@@ -16,4 +17,4 @@ I would like to use this blog to share some of my experiences and specially the 
 device security.  
 
 I think you will find usefull some of my projects and interests and I hope you can learn from my experience the same way I expect learning from your opinions and comments. I would like to see a lot of feedback and/or 
-any questions you think I might be able to solve in my mailbox (<antoniovazquezblanco@gmail.com>) or in comments (not implemented yet in this blog...).
+any questions you think I might be able to solve in my mailbox (<antoniovazquezblanco@gmail.com>) or in comments <span style="text-decoration:line-through">(not implemented yet in this blog...)</span>.
