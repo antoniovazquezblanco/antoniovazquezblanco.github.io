@@ -6,7 +6,7 @@ keywords: "HTML, CSS, localization, translation, languages, standard"
 description: "HTML translations should be improved and here are my ideas about how to do it."
 ---
 
-![htmlcssjslogo](/images/posts/2014-06-26-HTML_CSS_JS_logo.png "HTML5, CSS3 and JS logos")
+<img class="img img-rounded img-responsive center-block" title="HTML5, CSS3 and JS logos" alt="htmlcssjslogo" src="/images/posts/2014-06-26-HTML_CSS_JS_logo.png" />
 
 I never liked HTML or CSS too much. I have to say that althought they were easy for me to get started with them, I always found tricky to get some things well done. I have to say that HTML 5 standard did improve a lot 
 of aspects of this language but I see this technology too far from where it should be. Althought it has evolved there has been no interest in fixing some of the most basic issues of the standard among, in some cases, 

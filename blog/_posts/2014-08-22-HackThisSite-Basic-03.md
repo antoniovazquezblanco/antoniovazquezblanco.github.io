@@ -6,7 +6,7 @@ keywords: "hackthissite, hack, help, challenge, security"
 description: "My solution to a HackThisSite challenge!"
 ---
 
-![hackthissitelogo](/images/posts/2014-08-22-HackThisSite_logo.jpg "HackThisSite logo")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2014-08-22-HackThisSite_logo.jpg" />
 
 HackThisSite basic challenge number three. I hope someone likes trying to solve this challenges and enjoys learning basic tricks of computer security. If you have any doubts about why things work like that just ask in 
 the comments section!

@@ -6,7 +6,7 @@ keywords: "hackthissite, hack, help, challenge, security"
 description: "My solution to a HackThisSite challenge!"
 ---
 
-![hackthissitelogo](/images/posts/2014-07-19-HackThisSite_logo.jpg "HackThisSite logo")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2014-07-19-HackThisSite_logo.jpg" />
 
 Here you have some information about challenge basic number two. As in the first challenge here I explain what I believe the requisites are and some tips for solving the puzzle. Hope you like them.
 

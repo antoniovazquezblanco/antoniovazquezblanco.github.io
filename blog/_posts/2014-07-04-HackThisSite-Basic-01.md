@@ -6,7 +6,7 @@ keywords: "hackthissite, hack, help, challenge, security"
 description: "My solution to a HackThisSite challenge!"
 ---
 
-![hackthissitelogo](/images/posts/2014-07-04-HackThisSite_logo.jpg "HackThisSite logo")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2014-07-04-HackThisSite_logo.jpg" />
 
 I found [hackthissite.org](https://www.hackthissite.org/) quite long time ago when I was learning some basics of computer security and I really liked it. It is meant to reinforce theoretical knowledge with some 
 practice. It consists on a bunch of challenges that should be solved progressively.

@@ -6,7 +6,7 @@ keywords: "RomPager, vulnerability, exploit, security, cve"
 description: "RomPager server security advisory."
 ---
 
-![allegrosoftware](/images/posts/2014-05-18-Allegro_software.png "Allegro software")
+<img class="img img-rounded img-responsive center-block" title="Allegro software" alt="allegrosoftware" src="/images/posts/2014-05-18-Allegro_software.png" />
 
 RomPager is a widely used embedded webserver. Playing around with an quite old but very widely used (or at least in Spain) ZyXEL P-660HW-D1 I could find an small bug in this software that leads to XSS and URL redirection.
 

@@ -6,7 +6,7 @@ keywords: "InsydeH20, bios, flash, binary analisys, msdos, linux"
 description: "Analisys of new InsydeH20 bios update format in order to flash it with Linux."
 ---
 
-![insydeh2o](/images/posts/2014-06-04-Insyde_logo.jpg "InsydeH2O logo")
+<img class="img img-rounded img-responsive center-block" title="InsydeH2O logo" alt="insydeh2o" src="/images/posts/2014-06-04-Insyde_logo.jpg" />
 
 Some time ago I bought an Alienware M14xR2 as my last laptop broke down. Lately, Alienware published an update for my BIOS that I can't burn in my computer because I only use Archlinux. By googling a bit I quickly 
 found a tool for burning the BIOS in a DOS command line but I would need to have a look to the [update package](http://www.dell.com/support/drivers/es/es/esdhs1/DriverDetails/Product/alienware-m14x-r2?driverId=6CVT8&osCode=W764&fileId=3210572008&languageCode=es&categoryId=BI).
@@ -15,7 +15,7 @@ found a tool for burning the BIOS in a DOS command line but I would need to have
 
 Just by executing the update file in a virtual machine in windows I soon figured out it was a self extracting package. I just searched %TEMP% files for the extracted version.
 
-![selfextractor](/images/posts/2014-06-04-Self_extractor.png "Self extractor...")
+<img class="img img-rounded img-responsive center-block" title="Self extractor" alt="selfextractor" src="/images/posts/2014-06-04-Self_extractor.png" />
 
 ```bash
 $ file *

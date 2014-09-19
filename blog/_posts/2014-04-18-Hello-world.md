@@ -6,7 +6,7 @@ keywords: "blog, Antonio Vázquez Blanco"
 description: "This is my personal blog and here you have some information about me."
 ---
 
-![antoniovazquezblanco](/images/posts/2014-04-18-Myself.png "Antonio Vázquez Blanco")
+<img class="img img-rounded img-responsive center-block" title="Antonio Vázquez Blanco" alt="antoniovazquezblanco" src="/images/posts/2014-04-18-Myself.png" />
 
 I'm an engineering undergraduate born in a [small town called Chantada](https://www.google.com/maps/place/Chantada), that likes electronics and computer and if you ask me, I'm specially interested in the security area 
 and in robotics.  

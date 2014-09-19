@@ -6,7 +6,7 @@ keywords: "open, authentication, network, wireless, wifi, images, extract"
 description: "Open networks are insecure. Here you can find how to extract info in that networks."
 ---
 
-![wifi](/images/posts/2014-08-07-Wifi_logo.jpg "Wifi logo")
+<img class="img img-rounded img-responsive center-block" title="Wifi logo" alt="wifi" src="/images/posts/2014-08-07-Wifi_logo.jpg" />
 
 It is very common to find open wifi spots in airports, hotels, coffe shops... I understand that when you want universal internet access is tempting to use unencrypted a network but I find this very inconvinient because 
 this kind of networks are very insecure.

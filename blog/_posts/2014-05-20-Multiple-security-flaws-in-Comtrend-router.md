@@ -6,7 +6,7 @@ keywords: "Conceptronic, C54APM, security, exploit, cve"
 description: "C54APM access point multiple vulnerabilities advisory."
 ---
 
-![c54apmaccesspoint](/images/posts/2014-05-20-Comtrend_C54APM.jpg "Conceptronic C54APM access point...")
+<img class="img img-rounded img-responsive center-block" title="Conceptronic C54APM access point" alt="c54apmaccesspoint" src="/images/posts/2014-05-20-Comtrend_C54APM.jpg" />
 
 Last summer I've been playing with an old access point I found among my unused devices. Although this is far away from being a top selling device I decided to investigate a bit in order to find security flaws on it.
 
