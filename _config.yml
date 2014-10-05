@@ -22,5 +22,10 @@ navigation:
 - title: Blog
   url: /blog/
 
+# Themes
+themes:
+- red
+- blue
+
 # Blog settings
 permalink: none

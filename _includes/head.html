@@ -11,6 +11,8 @@
 	<link href="/css/bootstrap-social-4.5.0.min.css" rel="stylesheet">
 	<link href="/css/pygments-1.0.min.css" rel="stylesheet">
 	<link href="/css/general-1.0.min.css" rel="stylesheet">
+	{% assign theme =  site.time | date: '%s' | modulo: site.themes.size %}
+	<link href="/css/bg_{{ site.themes[theme] }}-1.0.min.css" rel="stylesheet">
 	<!-- Javascript -->
 	<script src="/js/jquery-2.1.0.min.js"></script>
 	<script src="/js/bootstrap-3.0.2.min.js"></script>

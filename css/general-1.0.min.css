@@ -1,2 +1,1 @@
-body,html{height:100%}body{background:url(/images/background.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover} .spoiler>span{display:none} .spoiler:hover>span{display:inline}
-.btn-rss{color:#FFF;background-color:#FF6600;border-color:rgba(0, 0, 0, 0.2);}
+body,html{height:100%} .spoiler>span{display:none} .spoiler:hover>span{display:inline} .btn-rss{color:#FFF;background-color:#FF6600;border-color:rgba(0, 0, 0, 0.2);}
