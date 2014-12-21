@@ -3,7 +3,7 @@ layout: post
 title: UART and Serial ports
 picture: /images/posts/2014-XX-XX-UART.jpg
 keywords: Serial port, UART, find, hacking, tutorial
-description: ""
+description: "UART ports in embeded devices may help you find vulnerabilities. Here's how to do it."
 ---
 
 ![uartport](/images/posts/2014-XX-XX-UART.png "UART port")
