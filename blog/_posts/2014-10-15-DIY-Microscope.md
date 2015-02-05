@@ -3,7 +3,7 @@ layout: post
 title: "DIY Microscope"
 picture: /images/posts/2014-10-15-DIY_Microscope.png
 keywords: DIY, Microscope, SMD, soldering, homemade, tools
-description: "Homemade microscope build instructions."
+description: "Homemade microscope build instructions with an old webcam and CCTV lenses."
 ---
 
 <img class="img img-rounded img-responsive center-block" title="DIY Microscope" alt="diymicroscope" src="/images/posts/2014-10-15-DIY_Microscope.png" />
