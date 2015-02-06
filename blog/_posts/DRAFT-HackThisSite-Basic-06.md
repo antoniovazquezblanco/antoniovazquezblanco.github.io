@@ -21,13 +21,53 @@ Patience. You need a little bit of time in order to reverse the logic of the enc
 
 ## Solution
 
-You must hover the hints for them to show so not to spoil people only reading the requisites section:
-
-<h3 class="spoiler">Hint 1: <span>What do you know about the encryption system?</span></h3>
-<h3 class="spoiler">Hint 2: <span>Try to encode some text and look for patterns...</span></h3>
-<h3 class="spoiler">Hint 3: <span>Encode the text "aaaaaa" for example.</span></h3>
-<h3 class="spoiler">Solution: <span>The encryption system just increments the char by its position number. Have a look at the ASCII table.</span></h3>
-<h3 class="spoiler">Code: <span>```c
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 1</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>What do you know about the encryption system?</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 2</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Try to encode some text and look for patterns...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 3</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Encode the text "aaaaaa" for example.</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Solution</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>The encryption system just increments the input character by its position number. Have a look at the ASCII table.</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Code</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -68,7 +108,10 @@ int main(int argc, char **argv)
 	return 0;
 }
 ```
-In order to use it just copy the code to a file called main.c and type ```gcc -o decrypter main.c``` in bash to compile it.</span></h3>
+In order to use it just copy the code to a file called main.c and type ```gcc -o decrypter main.c``` in bash to compile it.
+		</div>
+	</div>
+</div>
 
 
 ## Thoughts

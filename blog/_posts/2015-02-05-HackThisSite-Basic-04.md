@@ -20,12 +20,46 @@ You should know what an HTML form is. If you reached this level you should be ab
 
 ## Solution
 
-You must hover the hints for them to show so not to spoil people only reading the requisites section:
-
-<h3 class="spoiler">Hint 1: <span>As always look for information in the page source...</span></h3>
-<h3 class="spoiler">Hint 2: <span>The form contains hidden fields...</span></h3>
-<h3 class="spoiler">Hint 3: <span>The form points to an email address...</span></h3>
-<h3 class="spoiler">Solution: <span>Modify the form in order to make the script send you the information</span></h3>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 1</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>As always look for information in the page source...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 2</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>The form contains hidden fields...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 3</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>The form points to an email address...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Solution</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Modify the form in order to make the script send you the information.</p>
+		</div>
+	</div>
+</div>
 
 
 ## Thoughts

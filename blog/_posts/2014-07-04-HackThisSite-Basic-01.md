@@ -26,13 +26,46 @@ images listing some elements and linking to other webpages if you don't know how
 
 ## Solution
 
-You must hover the hints for them to show so not to spoil people only reading the requisites section:
-
-<h3 class="spoiler">Hint 1: <span>There's not much you can do. Try to understand how things work.</span></h3>
-<h3 class="spoiler">Hint 2: <span>For understanding how things work you must look at the html code.</span></h3>
-<h3 class="spoiler">Hint 3: <span>Look up in google what an html comment is...</span></h3>
-<h3 class="spoiler">Solution: <span>In the html code there's a comment saying "pasword is..."</span></h3>
-
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 1</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>There's not much you can do. Try to understand how things work.</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 2</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>For understanding how things work you must look at the html code.</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 3</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Look up in google what an html comment is...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Solution</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>In the html code there's a comment saying "pasword is..."</p>
+		</div>
+	</div>
+</div>
 
 ## Thoughts
 

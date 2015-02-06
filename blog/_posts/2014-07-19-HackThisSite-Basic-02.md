@@ -22,12 +22,46 @@ trying to improve on your own. As always if you get stuck with any of this, feel
 
 ## Solution
 
-You must hover the hints for them to show so not to spoil people only reading the requisites section:
-
-<h3 class="spoiler">Hint 1: <span>Read carefully the notes on the level...</span></h3>
-<h3 class="spoiler">Hint 2: <span>Think about how would you do a program that achieves the same as this level...</span></h3>
-<h3 class="spoiler">Hint 3: <span>What the content of a file that doesn't exist can be?</span></h3>
-<h3 class="spoiler">Solution: <span>There's no password. Just click submit with an empty password. When the program tries to read the password a null value or an empty string is returned so we have to send an empty string in order to bypass some kind of conditional statement.</span></h3>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 1</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Read carefully the notes on the level...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 2</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>Think about how would you do a program that achieves the same as this level...</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Hint 3</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>What the content of a file that doesn't exist can be?</p>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<button type="button" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Solution</button>
+	</div>
+	<div class="panel-collapse collapse out">
+		<div class="panel-body">
+			<p>There's no password. Just click submit with an empty password. When the program tries to read the password a null value or an empty string is returned so we have to send an empty string in order to bypass some kind of conditional statement.</p>
+		</div>
+	</div>
+</div>
 
 
 ## Thoughts
