@@ -57,7 +57,7 @@ Patience. You need a little bit of time in order to reverse the logic of the enc
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>The encryption system just increments the input character by its position number. Have a look at the ASCII table.</p>
+			<p>The encryption system takes a character and increments its value depending on the position of the character using the ASCII table for calculating the new value. For instance if we input an 'a' as the first character of a string, the output will be an 'a'. If we input the same character but in the second position the output will be a 'b'. For especial characters check the [ASCII table](http://upload.wikimedia.org/wikipedia/commons/d/dd/ASCII-Table.svg).</p>
 		</div>
 	</div>
 </div>
@@ -67,6 +67,7 @@ Patience. You need a little bit of time in order to reverse the logic of the enc
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
+			<p>The following program takes a text as input and decrypts the original text. In order to use it just copy the code to a file called main.c and type ```gcc -o decrypter main.c``` in bash to compile it.</p>
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -108,7 +109,6 @@ int main(int argc, char **argv)
 	return 0;
 }
 ```
-In order to use it just copy the code to a file called main.c and type ```gcc -o decrypter main.c``` in bash to compile it.
 		</div>
 	</div>
 </div>
