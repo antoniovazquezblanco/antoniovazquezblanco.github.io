@@ -8,7 +8,7 @@ description: "My solution to a HackThisSite challenge!"
 
 ![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg "HackThisSite logo")
 
-I'm happy a friend decided to start with the challenges of HackThisSite after he read some of the posts I've been writing! I think I will continue with this because it is not only a way for me to remember the solutions to some of this challenges but I also think that some of you may want to give them a try.
+I'm happy some friends decided to start with the challenges of HackThisSite after they read some of the posts I've been writing! I think I will continue with this because it is not only a way for me to remember the solutions to some of this challenges but I also think that some of you may want to give them a try.
 
 This time we're told that security of the email system has improved. Let's check it.
 
