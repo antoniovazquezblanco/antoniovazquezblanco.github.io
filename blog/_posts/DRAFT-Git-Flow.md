@@ -7,6 +7,7 @@ description: ""
 ---
 
 ![gitlogo](/images/posts/2014-XX-XX-Git_logo.png "Git logo")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-02-05-HackThisSite_logo.jpg" />
 
 When developing software
 

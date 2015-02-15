@@ -7,6 +7,7 @@ description: "UART ports in embeded devices may help you find vulnerabilities. H
 ---
 
 ![uartport](/images/posts/2014-XX-XX-UART.png "UART port")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-02-05-HackThisSite_logo.jpg" />
 
 We're used to interact with devices through a screen and a keyboard. They are very practical and easy to use interfaces but sometimes can be too expensive for some devices to include them.
 Embeded devices like routers simply don't need a graphical interface and we sometimes forget that ethernet or wifi are not the only access vectors that can be used to pentest this kind of devices.

@@ -7,6 +7,7 @@ description: ""
 ---
 
 ![quadcopter](/images/posts/................. "Quadcopter")
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-02-05-HackThisSite_logo.jpg" />
 
 <!--more-->
 
