@@ -8,13 +8,13 @@ description: "My solution to a HackThisSite challenge!"
 
 ![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg "HackThisSite logo")
 
-
+This 
 
 <!--more-->
 
 ## Requisites
 
-
+PHP whould be nice as in the previous exercises. 
 
 
 ## Solution
@@ -25,7 +25,12 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>What do you know about the encryption system?</p>
+			<p>
+
+
+
+
+			</p>
 		</div>
 	</div>
 </div>
@@ -35,7 +40,14 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>Try to encode some text and look for patterns...</p>
+			<p>
+
+
+
+
+
+
+			</p>
 		</div>
 	</div>
 </div>
@@ -45,7 +57,13 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>Encode the text "aaaaaa" for example.</p>
+			<p>
+
+
+
+
+
+			</p>
 		</div>
 	</div>
 </div>
@@ -55,7 +73,13 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>The encryption system just increments the input character by its position number. Have a look at the ASCII table.</p>
+			<p>
+
+
+
+
+
+			</p>
 		</div>
 	</div>
 </div>

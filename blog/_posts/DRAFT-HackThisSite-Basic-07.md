@@ -8,7 +8,7 @@ description: "My solution to a HackThisSite challenge!"
 
 ![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg "HackThisSite logo")
 
-Things start getting harder for those who have no experience with Linux and dynamic webpages! At this point you should know some basic html and if you're not familiar with it try to write a simple webpage. If you really want to know more try to setup a local webpage server in your computer and get in touch with PHP. This is really basic stuff you must get to know at least!
+Things start getting harder for those who have no experience with Linux and dynamic webpages! At this point you should know some basic html and if you're not familiar with it try to write a simple webpage. If you really want to know more try to setup a local webpage server in your computer and get in touch with PHP. This is really basic stuff you must get to know!
 
 <!--more-->
 
