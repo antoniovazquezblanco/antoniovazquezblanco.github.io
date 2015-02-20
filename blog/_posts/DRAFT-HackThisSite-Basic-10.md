@@ -6,8 +6,7 @@ keywords: hackthissite, hack, help, challenge, security
 description: "My solution to a HackThisSite challenge!"
 ---
 
-![hackthissitelogo](/images/posts/2014-XX-XX-HackThisSite_logo.jpg "HackThisSite logo")
-<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-02-05-HackThisSite_logo.jpg" />
+<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-XX-XX-HackThisSite_logo.jpg" />
 
 
 
