@@ -25,7 +25,7 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>What do you know about the encryption system?</p>
+			<p>What a cookie is? Search a bit about them.</p>
 		</div>
 	</div>
 </div>
@@ -55,7 +55,7 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>The encryption system just increments the input character by its position number. Have a look at the ASCII table.</p>
+			<p>The only things I have access to is source code. There's nothing there I can see for solving the level. I can also see my cookies. Lets have a look at them. I can see a cookie called "level10_authorized" with the value no. Change it to yes. Click con submit and done.</p>
 		</div>
 	</div>
 </div>

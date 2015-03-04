@@ -14,7 +14,7 @@ description: "My solution to a HackThisSite challenge!"
 
 ## Requisites
 
-
+Server side includes are necesary.
 
 
 ## Solution
@@ -45,7 +45,7 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>Encode the text "aaaaaa" for example.</p>
+			<p>The solution is not in level 9.</p>
 		</div>
 	</div>
 </div>
@@ -55,7 +55,7 @@ description: "My solution to a HackThisSite challenge!"
 	</div>
 	<div class="panel-collapse collapse out">
 		<div class="panel-body">
-			<p>The encryption system just increments the input character by its position number. Have a look at the ASCII table.</p>
+			<p>Nothing on this level... But it talks about level 8. <!--#exec cmd="ls ../../9/" --> in level 8 and boom! It returns files in level 9. Check for the password file and the password will come.</p>
 		</div>
 	</div>
 </div>

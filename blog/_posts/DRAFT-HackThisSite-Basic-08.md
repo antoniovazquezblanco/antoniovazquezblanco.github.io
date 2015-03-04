@@ -15,6 +15,7 @@ This
 ## Requisites
 
 PHP whould be nice as in the previous exercises. 
+Something about PHP and maybe how to implement an script for uploading things. Server side includes are a must.
 
 
 ## Solution
@@ -75,6 +76,8 @@ PHP whould be nice as in the previous exercises.
 		<div class="panel-body">
 			<p>
 
+
+First of all let's see what does the script do. So I type anything and click on submit. It redirects me to a confirmation page with a link and if I click it I get to an shtml page with the text I typed. I have two ideas... First one is to overwrite the password file so that I know what the password is, but I don't have it's name. The other is to test if server side includes are enabled. For checking I type <!--#exec cmd="ls ../" --> which returns the name of the files of the level. Just have a look to the files and check for the password.
 
 
 
