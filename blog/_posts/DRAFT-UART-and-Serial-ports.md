@@ -6,8 +6,7 @@ keywords: Serial port, UART, find, hacking, tutorial
 description: "UART ports in embedded devices may help you find vulnerabilities. Here's how I do it."
 ---
 
-![uartport](/images/posts/2014-XX-XX-UART.png "UART port")
-<img class="img img-rounded img-responsive center-block" title="HackThisSite logo" alt="hackthissitelogo" src="/images/posts/2015-02-05-HackThisSite_logo.jpg" />
+<img class="img img-rounded img-responsive center-block" title="UART port" alt="UART port" src="/images/posts/2014-XX-XX-UART.png" />
 
 We're used to interact with devices through a screen and a keyboard. They are very practical and easy to use interfaces but sometimes can be too expensive for some devices to include them.
 Embedded devices like routers simply don't need a graphical interface and we sometimes forget that Ethernet or WiFi are not the only access vectors that can be used to pentest this kind of devices.
@@ -21,8 +20,8 @@ Almost every embedded device includes an UART port that gives access to a lot of
 An UART port consists on 4 wires. A 0 volt reference (GND), a transmission wire (TX) and a reception one (RX). A high voltage reference should be also there but it is not always present.
 In order to interact with the devices we need some extra hardware. An example can be the [Bus Pirate](http://dangerousprototypes.com/bus-pirate-manual/) which is able to interface a lot of protocols but any other UART to serial USB adapter can be used. TX (Transmitting pin) of the device we are interfacing should be connected to RX (Receiving pin) in our bus pirate. And RX (Receiving pin) in device should be connected to TX (Transmission pin) in the adapter. Ground pin (GND) should be connected to ground pin. That's enough for transmitting and receiving data.
 
-![Bus Pirate](/images/posts/2014-XX-XX-Bus_Pirate.jpg "Bus pirate")
-![Bus Pirate connection diagram](/images/posts/2014-XX-XX-Bus_Pirate_connection.jpg "Bus pirate connection diagram")
+<img class="img img-rounded img-responsive center-block" title="Bus pirate" alt="Bus pirate" src="/images/posts/2014-XX-XX-Bus_Pirate.jpg" />
+<img class="img img-rounded img-responsive center-block" title="Bus pirate connection diagram" alt="Bus pirate connection diagram" src="/images/posts/2014-XX-XX-Bus_Pirate_connection.jpg" />
 
 Another option would be using an Arduino. If you hold an Arduino in reset mode the GPIO ports will be in tri-state mode, removing the processor from the circuit. In order to hold the processor in the reset mode just connect the reset pin with GND (active at low state). Now if you connect a serial device to pins 0 and 1 in the Arduino UNO the communications will be forwarded to your computer.
 
@@ -30,7 +29,7 @@ Another option would be using an Arduino. If you hold an Arduino in reset mode t
 
 Locating an UART port starts with a visual inspection. Three or four pin headers and test points around the main chips are possible candidates. For the examples I will be using an old ZyXEL P660HW-D1. This router board is easy as it only contains two candidates and they have the header already soldered as can be seen in the image.
 
-![p660hwd1board](/images/posts/2014-XX-XX-P660HW_D1_Board.png "P660HW-D1 Board")
+<img class="img img-rounded img-responsive center-block" title="P660HW-D1 Boar" alt="P660HW-D1 Boar" src="/images/posts/2014-XX-XX-P660HW_D1_Board.png" />
 
 Testing the GND pin is the easiest one. Metal cases are almost always grounded and we can use them to detect the ground pin. With a polymeter in "beep" mode, the device turned off and unplugged, put one of the probes in a metal case and with the other test the pins for an immediate beep.
 
