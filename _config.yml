@@ -1,31 +1,21 @@
-# Site info
-title: 'Antonio Vázquez Blanco'
-url: https://antoniovazquezblanco.github.io
+title: Mental crashdumps
 
-# Author
 author:
-  name: 'Antonio Vázquez Blanco'
-  email: 'antoniovazquezblanco@gmail.com'
+  name: Antonio Vázquez Blanco
+  email: antoniovazquezblanco@gmail.com
 
-# Dependencies
-highlighter: pygments
-markdown: redcarpet
+description: >-
+  Here I pretend to (not very often) write down some of my findings,
+  ideas and other (hopefully) useful information that I feel may be
+  worth sharing.
 
-# Pagination
-paginate: 6
-paginate_path: "blog/page:num"
+remote_theme: antoniovazquezblanco/jekyll-theme-ascii
 
-# Navigation
-navigation:
-- title: Home
-  url: /
-- title: Blog
-  url: /blog/
+header_pages:
+ - index.md
+ - about.md
 
-# Themes
-themes:
-- red
-- blue
-
-# Blog settings
-permalink: none
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-redirect-from
