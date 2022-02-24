@@ -21,7 +21,7 @@ Currently, unless specific requirements of a project force me to change my habit
 
 A `master` or `main` branch which holds the latest usable code. Releases take place only in this branch and there may be commits after the latest release. The latest commit can be seen as the latest unstable release.
 
-Changes take place in `dev/xxx` branches that spawn from `main`. Merging issues are always fixed in the `dev/xxx` branch. This allows an in deep review before merging back into `main`. Code must be thoroughly tested. This forces code changes to be split into smaller chunks per branch to allow for better and faster review.
+Changes take place in `dev/xxx` branches that spawn from `main`. Merging issues are always fixed in the `dev/xxx` branch. This allows an in-depth review before merging back into `main`. Code must be thoroughly tested. This forces code changes to be split into smaller chunks per branch to allow for better and faster review.
 
 From time to time it is inevitable to deal with breaking changes that mess the rest of pending reviews but planning usually limits those cases to the minimum.
 
@@ -29,4 +29,6 @@ Of course, testing and performing thorough reviews of the code are a must in ord
 
 As a side note, I like to squash merge the `dev/xxx` branches to keep the history as clean as possible. If the branch is small enough to squash it, this is also a good time to rewrite the commit message. If the branch is too big or has a complex history, the merge will not be squashed.
 
-This may be obvious for many people but to come to this realization and to be able to write this down has required an effort for me. Maybe this will be of use for others that tend to overthink things like I do.
+This may be obvious for many people but to come to this realization and to be able to write this down has required a mental effort. Maybe this will be of use for others that tend to overthink things like I do.
+
+Thanks!
