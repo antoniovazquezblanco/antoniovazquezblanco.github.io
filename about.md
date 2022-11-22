@@ -52,9 +52,9 @@ If you want to know more about me there you have some of the social networks I u
     </a>
   </div>
   <div>
-    <a href="https://twitter.com/antonvblanco">
-      <img src="/assets/about/twitter.png" /><br />
-      <span>@antonvblanco</span>
+    <a href="https://mastodon.social/@antoniovazquezblanco">
+      <img src="/assets/about/mastodon.png" /><br />
+      <span>@antoniovazquezblanco@mastodon.social</span>
     </a>
   </div>
   <div>
