@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ASUS DSL-N14U flash reading fail...
+mastodon_comments:
+  toot_id: 109390034146199895
 ---
 
 I have got an old ASUS DSL-N14U router laying around. I would love to reuse it for new projects but the outdated software it runs does not really fit my needs... I decided to have a look in order to see what could be done with it and if I could hack on it...
