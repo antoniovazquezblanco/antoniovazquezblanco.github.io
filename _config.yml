@@ -20,5 +20,5 @@ plugins:
  - jekyll-seo-tag
  - jekyll-redirect-from
 
-disqus:
-  shortname: antoniovazquezblanco
+mastodon_comments:
+  host: mastodon.social
