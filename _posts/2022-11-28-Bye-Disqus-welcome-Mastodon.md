@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Bye Disqus. Welcome Mastodon!
+mastodon_comments:
+  toot_id: 109423180831038444
 ---
 
 Lately, I have been thinking more about data ownership and some time ago I decided to removed Google Analytics from the blog. It was useful but I did not want to leak user data and have to include an ugly cookie banner in here... Nor do I have the CSS skills to build a proper floating one anyway...
