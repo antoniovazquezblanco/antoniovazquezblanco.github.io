@@ -1,6 +1,8 @@
 ---
 layout: post
 title: UART and Serial ports
+mastodon_comments:
+  toot_id: 109428616880965444
 ---
 
 ![UART port](/assets/2015-05-10/UART.jpg)
