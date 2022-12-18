@@ -20,5 +20,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-redirect-from
 
+markdown: CommonMarkGhPages
+
 mastodon_comments:
   host: mastodon.social
