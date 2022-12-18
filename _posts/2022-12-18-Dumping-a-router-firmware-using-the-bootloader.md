@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Dumping a router firmware using the bootloader
+mastodon_comments:
+  toot_id: 109535550347830674
 ---
 
 Previously, in [ASUS DSL-N14U flash reading fail...](http://antoniovazquezblanco.github.io/2022/11/22/ASUS-DSL-N14U-flash-reading-fail.html), I tried to dump the router firmware by directly reading the flash memory from the router using flashrom and a Bus Pirate. As it didn't work as expected, I've went and kept tinkering with it...
