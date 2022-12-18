@@ -21,6 +21,8 @@ plugins:
  - jekyll-redirect-from
 
 markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE"]
 
 mastodon_comments:
   host: mastodon.social
