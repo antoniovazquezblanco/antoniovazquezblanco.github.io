@@ -2,7 +2,7 @@
 layout: post
 title: Automated firmware uploading using DSL-N14U stock bootloader
 mastodon_comments:
-  toot_id: none
+  toot_id: 109684663880055794
 ---
 
 Up until now I have written about [how I failed to read my old router memory using flashrom](http://antoniovazquezblanco.github.io/2022/11/22/ASUS-DSL-N14U-flash-reading-fail.html) and how I [succeeded in dumping the flash via the bootloader](http://antoniovazquezblanco.github.io/2022/12/18/Dumping-a-router-firmware-using-the-bootloader.html), but I have yet to tell why I am doing this...
