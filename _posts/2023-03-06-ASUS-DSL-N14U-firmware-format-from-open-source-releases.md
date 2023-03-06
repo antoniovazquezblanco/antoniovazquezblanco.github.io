@@ -2,7 +2,7 @@
 layout: post
 title: ASUS DSL N14U firmware format from open source releases
 mastodon_comments:
-  toot_id: 
+  toot_id: 109977752376617565
 ---
 
 I have not given up on my old router hacking project. Last time we made a tool to [upload images for semi-automated testing of firmwares](http://antoniovazquezblanco.github.io/2023/01/14/Automated-firmware-uploading-using-DSL-N14U-stock-bootloader.html). Sadly, there is no firmware to test yet... It may be interesting to analyze how firmware files are formed to be able to generate our own...
