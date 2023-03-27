@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A tool for extracting old Agilent firmwares
+mastodon_comments:
+  toot_id: 110096913287213127
 ---
 
 History keeps repeating. Lately I am having some trouble keeping my mind focused on certain projects and decided to start a quick side project again... The following toot depicts it really well...
