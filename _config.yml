@@ -2,7 +2,6 @@ title: Mental crashdumps
 
 author:
   name: Antonio Vázquez Blanco
-  email: antoniovazquezblanco@gmail.com
 
 description: >-
   Here I pretend to (not very often) write down some of my findings,
@@ -11,13 +10,7 @@ description: >-
 
 remote_theme: antoniovazquezblanco/jekyll-theme-ascii
 
-header_pages:
- - index.md
- - about.md
-
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
  - jekyll-redirect-from
 
 markdown: CommonMarkGhPages
