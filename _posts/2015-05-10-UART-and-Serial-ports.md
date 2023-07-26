@@ -5,7 +5,7 @@ mastodon_comments:
   toot_id: 109428616880965444
 ---
 
-![UART port](/assets/2015-05-10/UART.jpg)
+![UART port](2015-05-10_UART.jpg)
 
 We're used to interact with devices through a screen and a keyboard. They are very practical and easy to use interfaces but sometimes can be too expensive for some devices to include them.
 

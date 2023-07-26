@@ -13,7 +13,7 @@ Future posts will explain how I was able to interface the UART port and some bas
 
 More information can be found in the following links:
 
-* [Advisory](/assets/2014-05-20/Advisory_C54APM_Multiple.pdf)
+* [Advisory](2014-05-20_Advisory_C54APM_Multiple.pdf)
 * [CVE-2014-1405](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1405)
 * [CVE-2014-1406](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1406)
 * [CVE-2014-1407](http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1407)

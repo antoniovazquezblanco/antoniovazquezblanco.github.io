@@ -9,7 +9,7 @@ Previously, in [ASUS DSL-N14U flash reading fail...](http://antoniovazquezblanco
 
 Looking at the router internals an unpopulated header caught my attention. I've soldered some headers to the CN6 marked connector and tested [whether this was an UART or not](http://antoniovazquezblanco.github.io/2015/05/10/UART-and-Serial-ports.html).
 
-![ASUS DSL-N14U internals](/assets/2022-12-18/router_internals.jpeg)
+![ASUS DSL-N14U internals](2022-12-18_router_internals.jpeg)
 
 After properly connecting an UART to USB adapter and rebooting the device it was time to guess the configuration. I defaulted to the no parity and one stop bit configuration as it is uncommon to find any device that is not configured in this way. For the speed configuration, most common standard speeds were evaluated and found that the device was outputting at 115200 bauds.
 

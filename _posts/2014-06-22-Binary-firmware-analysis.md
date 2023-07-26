@@ -9,7 +9,7 @@ Firmware analysis can be a good starting point as there's no need to have physic
 
 In the following examples I'm going to use a firmware from TP-LINK for TL-WR841N v8 (Soft. version: 3.13.33).
 
-![HexEdit](/assets/2014-06-22/HexEdit.png)
+![HexEdit](2014-06-22_HexEdit.png)
 
 Hex editors can be very useful for some things but when you are trying to search for some file signatures and you have a list of over 50 of them, they become tedious and repetitive so in the past I started using the  "strings" command in order to find usual signatures like "sqfs" or its variants for squash filesystems. This enabled me to automate signature finding with bash scripts very easily.
 
