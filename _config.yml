@@ -2,6 +2,11 @@
 url: "https://antoniovazquezblanco.github.io"
 baseurl: ""
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
 # Site settings
 title: Mental crashdumps
 
@@ -13,8 +18,6 @@ description: >-
   ideas and other (hopefully) useful information that I feel may be
   worth sharing.
 
-plugins:
- - jekyll-redirect-from
 
 markdown: CommonMarkGhPages
 commonmark:
