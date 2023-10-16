@@ -1,6 +1,5 @@
 {%- assign nav_pages = site.pages | where_exp: 'item', 'item.nav_exclude != true' | sort: 'nav_order' -%}
 <header>
-  <h1>{{ site.title }}</h1>
   <ul>
     {%- for entry in nav_pages -%}{%- if entry.title -%}
     <li><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></li>
