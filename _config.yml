@@ -13,22 +13,20 @@ exclude:
 - Gemfile.lock
 - Gemfile
 
+# Seo settings
+title: Antón
 
-# Site settings
-title: Mental crashdumps
+tagline: Hacking, Reversing, Programming, HAM Radio...
+
+description: Trying to improve and understand as much as possible about hacking, reverse engineering, programming, HAM radio, hardware and more.
 
 author:
   name: Antonio Vázquez Blanco
+  url: https://antoniovazquezblanco.github.io/
 
-description: >-
-  Here I pretend to (not very often) write down some of my findings,
-  ideas and other (hopefully) useful information that I feel may be
-  worth sharing.
-
-
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["UNSAFE"]
-
-mastodon_comments:
-  host: mastodon.social
+social:
+  name: Antonio Vázquez Blanco
+  links:
+    - https://twitter.com/antonvblanco
+    - https://www.linkedin.com/in/antoniovazquezblanco/
+    - https://github.com/antoniovazquezblanco
