@@ -7,6 +7,13 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+# File exclusion
+exclude:
+- README.md
+- Gemfile.lock
+- Gemfile
+
+
 # Site settings
 title: Mental crashdumps
 
