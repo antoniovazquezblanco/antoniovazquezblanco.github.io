@@ -1,3 +1,8 @@
+# URL settings
+url: "https://antoniovazquezblanco.github.io"
+baseurl: ""
+
+# Site settings
 title: Mental crashdumps
 
 author:
@@ -7,8 +12,6 @@ description: >-
   Here I pretend to (not very often) write down some of my findings,
   ideas and other (hopefully) useful information that I feel may be
   worth sharing.
-
-remote_theme: antoniovazquezblanco/jekyll-theme-ascii
 
 plugins:
  - jekyll-redirect-from
