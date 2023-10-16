@@ -1,21 +1,12 @@
-title: Mental crashdumps
+# URL settings
+url: "https://antoniovazquezblanco.github.io"
+baseurl: ""
 
-author:
-  name: Antonio Vázquez Blanco
+# Site settings
+title: "Anton"
 
-description: >-
-  Here I pretend to (not very often) write down some of my findings,
-  ideas and other (hopefully) useful information that I feel may be
-  worth sharing.
-
-remote_theme: antoniovazquezblanco/jekyll-theme-ascii
-
-plugins:
- - jekyll-redirect-from
-
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["UNSAFE"]
-
-mastodon_comments:
-  host: mastodon.social
+# File exclusion
+exclude:
+- README.md
+- Gemfile.lock
+- Gemfile
