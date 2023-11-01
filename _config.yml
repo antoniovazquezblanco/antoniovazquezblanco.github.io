@@ -13,6 +13,15 @@ exclude:
 - README.md
 - Gemfile.lock
 - Gemfile
+- package.json
+- package-lock.json
+- node_modules
+
+sass:
+  sass_dir: _sass/
+  style: compressed
+  load_paths:
+    - node_modules/
 
 # Seo settings
 title: Antón

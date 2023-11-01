@@ -1,2 +1,6 @@
+# Jekyll
 _site
 Gemfile.lock
+
+# NodeJS
+node_modules/
