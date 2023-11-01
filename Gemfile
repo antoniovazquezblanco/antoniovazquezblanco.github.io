@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-feed', group: :jekyll_plugins
-gem 'jekyll-redirect-from', group: :jekyll_plugins
-gem 'wdm', :platforms => [:mingw, :x64_mingw, :mswin]
-gem 'webrick'
+gem 'jekyll'
+gem 'jekyll-feed'
+gem 'jekyll-redirect-from'
+gem 'jekyll-seo-tag'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?

@@ -6,6 +6,7 @@ baseurl: ""
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # File exclusion
 exclude:
