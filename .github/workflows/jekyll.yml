@@ -28,6 +28,12 @@ jobs:
           bundler-cache: true
           cache-version: 0
 
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'latest'
+          cache: 'npm'
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
