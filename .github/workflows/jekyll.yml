@@ -33,6 +33,8 @@ jobs:
         with:
           node-version: 'latest'
           cache: 'npm'
+
+      - name: Install Node dependencies
         run: npm ci
 
       - name: Setup Pages
