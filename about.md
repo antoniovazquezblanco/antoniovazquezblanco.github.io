@@ -2,7 +2,7 @@
 layout: page
 title: /about
 permalink: /about/
-nav_order: 1
+nav_order: 2
 ---
 
 <p align="center"><img width=150 src="/assets/about/someone.jpg"></p>
