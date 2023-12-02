@@ -23,7 +23,7 @@ While I wait for new floppy disks to arrive and test, I decided to have a look i
 
 After downloading the firmware update and decompressing the exe file (self-extracting zip) I tried binwalk without much success. 
 
-![Firmware entropy graph](/assets/2023-03-27/entropy.png)
+![Firmware entropy graph](entropy.png)
 
 File entropy indicated some kind of compression or encryption. Despite of the entropy level, there were quite a lot of printable characters, especially around the entropy dip at the end which was curious.
 
@@ -43,7 +43,7 @@ You can find both python packages in my GitHub and Pypi:
 
 I was able to decompress the update file and even load it into Ghidra. There are a couple of bugs in Ghidra that make the process of reversing a bit dirty, but I was able to find the update procedure!
 
-![Reverse engineering image](/assets/2023-03-27/firmware_reversing.png)
+![Reverse engineering image](firmware_reversing.png)
 
 The reversing part may come in a future post. That is all for now...
 

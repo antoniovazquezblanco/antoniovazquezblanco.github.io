@@ -13,11 +13,11 @@ As soon as I got it I offered to bring it to a small hacking gathering we organi
 
 Here is a photo of the main router board...
 
-![Archer C1200 v2 main board](/assets/2023-07-19/c1200_main.jpg)
+![Archer C1200 v2 main board](c1200_main.jpg)
 
 Here is the detail of the serial port connections...
 
-![Archer C1200 v2 UART detail](/assets/2023-07-19/c1200_uart.jpg)
+![Archer C1200 v2 UART detail](c1200_uart.jpg)
 
 For those interested, you can find more info on how to locate a serial port on [this older article](/2015/05/10/UART-and-Serial-ports.html) and the info on this particular serial port location uploaded to [OpenWRT wiki](https://openwrt.org/toh/tp-link/archer_c1200_v2#serial).
 

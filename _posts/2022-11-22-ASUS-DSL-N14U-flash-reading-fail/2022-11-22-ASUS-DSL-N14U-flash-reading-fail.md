@@ -7,11 +7,11 @@ mastodon_comments:
 
 I have got an old ASUS DSL-N14U router laying around. I would love to reuse it for new projects but the outdated software it runs does not really fit my needs... I decided to have a look in order to see what could be done with it and if I could hack on it...
 
-![ASUS DSL-N14U](/assets/2022-11-22/router.png)
+![ASUS DSL-N14U](router.png)
 
 After checking [ASUS support downloads](https://www.asus.com/es/supportonly/dsl-n14u/helpdesk_bios/) the latest release is found to be from 2020. Not bad for a 2015 router. Unfortunatelly, that release is still packing a 2.6.22 kernel that was released on 2007... Time to go my own way...
 
-![ASUS DSL-N14U internals](/assets/2022-11-22/router_internals.jpeg)
+![ASUS DSL-N14U internals](router_internals.jpeg)
 
 Flash: 16MB (Macronix MX25L12835F)
 RAM: 64MB
@@ -23,7 +23,7 @@ Because I am a tinkerer, I went straight down the hardware path rabbit hole. Fir
 
 I could find a [datasheet for the Macronix MX25L12835F](https://www.macronix.com/Lists/Datasheet/Attachments/8653/MX25L12835F,%203V,%20128Mb,%20v1.6.pdf) memory. On top of available documentation, it seems to be in the [supported hardware list for flashrom](https://www.flashrom.org/Supported_hardware). [Flashrom also supports Bus Pirate](https://www.flashrom.org/Bus_Pirate) as an interface device for reading and writing memories. I bought some SOP16 clips and manufactured a cable with the correct pinout.
 
-![Macronix MX25L12835F absolute maximum ratings](/assets/2022-11-22/macronix_absolutes.png)
+![Macronix MX25L12835F absolute maximum ratings](macronix_absolutes.png)
 
 From the Macronix MX25L12835F datasheet I extracted the absolute maximum ratings. The memory should not be fed more than 4V so I decided to try and power the memory directly from the Bus Pirate at 3.3V. Soon I found that the Bus Pirate was powerful enough to power up the memory but also the microcontroller. Flashrom is able to detect the memory but soon after, the microcontroller starts to poll the memory ruining my dump...
 

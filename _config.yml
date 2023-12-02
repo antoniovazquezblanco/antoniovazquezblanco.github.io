@@ -7,6 +7,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-postfiles
 
 # File exclusion
 exclude:

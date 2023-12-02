@@ -5,7 +5,7 @@ mastodon_comments:
   toot_id: 109428616880965444
 ---
 
-![UART port](/assets/2015-05-10/UART.jpg)
+![UART port](UART.jpg)
 
 We're used to interact with devices through a screen and a keyboard. They are very practical and easy to use interfaces but sometimes can be too expensive for some devices to include them.
 
@@ -19,8 +19,8 @@ An UART port consists on 4 wires. A 0 volt reference (GND), a transmission wire 
 
 In order to interact with the devices we need some extra hardware. An example can be the [Bus Pirate](http://dangerousprototypes.com/bus-pirate-manual/) which is able to interface a lot of protocols but any other UART to serial USB adapter can be used. TX (Transmitting pin) of the device we are interfacing should be connected to RX (Receiving pin) in our bus pirate. And RX (Receiving pin) in device should be connected to TX (Transmission pin) in the adapter. Ground pin (GND) should be connected to ground pin. That's enough for transmitting and receiving data.
 
-![BUS pirate](/assets/2015-05-10/Bus_Pirate.jpg)
-![BUS pirate connection diagram](/assets/2015-05-10/Bus_Pirate_connection.jpg)
+![BUS pirate](Bus_Pirate.jpg)
+![BUS pirate connection diagram](Bus_Pirate_connection.jpg)
 
 Another option would be using an Arduino. If you hold an Arduino in reset mode the GPIO ports will be in tri-state mode (this is the equivalent of removing the processor from the circuit). In order to hold the processor in the reset mode just connect the reset pin with GND (active at low state). Now if you connect a serial device to pins 0 and 1 in the Arduino UNO the communications will be forwarded to your computer.
 
@@ -28,7 +28,7 @@ Another option would be using an Arduino. If you hold an Arduino in reset mode t
 
 Locating an UART port starts with a visual inspection. Three or four pin headers and test points around the main chips are possible candidates. For the examples I will be using an old ZyXEL P660HW-D1. This router board is easy as it only contains two candidates and they have the header already soldered as can be seen in the image.
 
-![P660HW-D1 Board](/assets/2015-05-10/P660HW_D1_Board.jpg)
+![P660HW-D1 Board](P660HW_D1_Board.jpg)
 
 Testing the GND pin is the easiest one. Metal cases are almost always grounded and we can use them to detect the ground pin. With a polymeter in "beep" mode, the device turned off and unplugged, put one of the probes in a metal case and with the other test the pins for an immediate beep.
 

@@ -11,5 +11,5 @@ I've reported it to [INTECO-CERT](http://cert.inteco.es/) and I was told that th
 
 Further information about affected devices and how to exploit the issue can be found in the following links:  
 
-* [Advisory](/assets/2014-05-18/Advisory_RomPagerXSS.pdf)
+* [Advisory](Advisory_RomPagerXSS.pdf)
 * [CVE 2013-6786](http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-6786)

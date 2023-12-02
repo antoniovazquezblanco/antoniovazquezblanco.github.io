@@ -49,7 +49,7 @@ There is an obvious first way I could flash kernels or firmwares. I could use th
 
 I found no other obvious command for my purpose. The `httpd` one was a little bit confusing but after some testing I found it exposes the following webpage...
 
-![ASUS DSL-N14U internals](/assets/2023-01-14/httpd_upload_form.png)
+![ASUS DSL-N14U internals](httpd_upload_form.png)
 
 It seems to load up a specific recovery service for firmware flashing. After testing to flash the latest version of the firmware I found that it works as expected. Let's use this!
 
@@ -79,7 +79,7 @@ usage: main.py [-h] [-s SERIAL] -f FIRMWARE [-l LOG] [-n NONINTERACTIVE] [-a ADD
 main.py: error: the following arguments are required: -f/--firmware
 ```
 
-![DSL-N14U firmware upload tool](/assets/2023-01-14/fw_upload.gif)
+![DSL-N14U firmware upload tool](fw_upload.gif)
 
 While developing this tool, some tweaking had to be made because the bootloader does not correctly implement multipart encoding and does not follow the standard for detecting data boundaries. This has been difficult to debug and required quite some reverse engineering to discover but that is for another post.
 
