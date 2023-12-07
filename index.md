@@ -4,4 +4,4 @@ layout: page
 nav_order: 0
 ---
 
-{% include post-list.html %}
+{% include post_list.html %}
