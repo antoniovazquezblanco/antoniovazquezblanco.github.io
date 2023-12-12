@@ -17,3 +17,8 @@ h1, h2, h3 {
     /* Headers have too much space with the previous setting */
     line-height: 1.2;
 }
+
+ul {
+    /* Unordered lists do not require bullets */
+    list-style: none;
+}
