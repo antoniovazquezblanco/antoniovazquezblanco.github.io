@@ -36,3 +36,7 @@ nav_order: 1
 | 2024/09/19    | Pwn3d! Con        | Talk      | ES        | Bluetooth, ese gran olvidado      | [[PDF]]({{ 'talks/2024_Pwn3d_BSAM.pdf' | relative_url }})                             \
 |               |                   |           |           |                                   | [[PoC]](https://github.com/TarlogicSecurity/BlueSpy)                                  |
 |---------------+-------------------+-----------+-----------+-----------------------------------+---------------------------------------------------------------------------------------|
+| 2025/03/06    | RootedCON         | Talk      | ES        | Attacking Bluetooth the easy way  | [[PDF]]({{ 'talks/2025_RootedCon_BluetoothTools.pdf' | relative_url }})               \
+|               |                   |           |           |                                   | [[PoC]](https://github.com/antoniovazquezblanco/usbbluetooth)                         \
+|               |                   |           |           |                                   | [[PoC]](https://github.com/antoniovazquezblanco/scapy-usbbluetooth)                   |
+|---------------+-------------------+-----------+-----------+-----------------------------------+---------------------------------------------------------------------------------------|
