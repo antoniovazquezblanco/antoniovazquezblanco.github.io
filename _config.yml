@@ -4,11 +4,7 @@ baseurl: ""
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-postfiles
-  - jekyll-spaceship
 
 # File exclusion
 exclude:
@@ -42,7 +38,3 @@ social:
     - https://twitter.com/antonvblanco
     - https://www.linkedin.com/in/antoniovazquezblanco/
     - https://github.com/antoniovazquezblanco
-
-jekyll-spaceship:
-  processors:
-    - table-processor

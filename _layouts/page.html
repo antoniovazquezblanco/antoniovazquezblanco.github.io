@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {%- seo -%}
-    {%- feed_meta -%}
     {%- include head_favicon.html -%}
+    {%- if page.redirect_to -%}<meta http-equiv="refresh" content="0; url={{page.redirect_to}}" />{%- endif -%}
   </head>
   <body>
     {%- include header.html -%}
