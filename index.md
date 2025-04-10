@@ -1,8 +1,7 @@
 ---
 layout: page
-title: /about
+title: About me
 permalink: /
-nav_order: 0
 ---
 
 <pre style="font-size:2px">
