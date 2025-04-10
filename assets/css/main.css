@@ -1,0 +1,43 @@
+html {
+    /* Improve consistency of default fonts in all browsers. */
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    /* Correct the line height in all browsers. */
+    line-height: 1.15;
+    /* Prevent adjustments of font size after orientation changes in iOS. */
+    -webkit-text-size-adjust: 100%;
+    /* Use a more readable tab size. */
+    tab-size: 4;
+}
+
+body {
+    /* Give a margin for when the screen size is less than the max width */
+    margin: 40px auto;
+    padding: 0 10px;
+    /* Limit maximum width */
+    max-width: 650px;
+    /* Default text is too small */
+    font-size: 18px;
+    /* Let the text breathe */
+    line-height: 1.6;
+    /* Some colors */
+    background-color: #444;
+    color: #fff;
+}
+
+ul {
+    /* Unordered lists do not require bullets */
+    list-style: none;
+}
+
+a {
+    color: #fff;
+}
+
+pre {
+    /*Improve consistency of default fonts in all browsers.*/
+    font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    /* Correct the odd 'em' font sizing in all browsers. */
+    font-size: 1em;
+    /* In monospaced text use default line height. */
+    line-height: 1.2;
+}

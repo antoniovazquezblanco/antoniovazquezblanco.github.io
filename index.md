@@ -4,7 +4,7 @@ title: About me
 permalink: /
 ---
 
-<pre style="font-size:2px">
+<pre style="font-size:2px;text-align: center;">
                                                                                                                                              ░░░              ░                                                                          
                                                                                                                                  ░           ░░░░░░▒░░▒░░░  ░░▒▒▒▒░▒▒▒▒░░░░░ ░░                                                          
                                                                                                                                   ░░░ ░   ░░░░░ ▒▒░░▒▒▒░▒░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░                                                      
@@ -136,8 +136,8 @@ I am a cybersecurity researcher that enjoys electronics, reverse engineering, pr
 Currently in the discovery of radio and signal processing!
 
 Here you can find some of my projects:
-* [Personal security advisories](https://github.com/antoniovazquezblanco/advisories)
 * [Talks and trainings](https://github.com/antoniovazquezblanco/talks)
+* [Security advisories](https://github.com/antoniovazquezblanco/advisories)
 * [Blog](https://antoniovazquezblanco.github.io/blog/)
 
 You can find more about my work or contact me via:
